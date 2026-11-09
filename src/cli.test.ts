@@ -2935,7 +2935,7 @@ describe("cli", () => {
 
 		await runCli(["node", "birdclaw", "search", "tweets", "default"]);
 		await runCli(["node", "birdclaw", "search", "dms", "default"]);
-		await runCli(["node", "birdclaw", "inbox", "--kind", "weird"]);
+		await runCli(["node", "birdclaw", "inbox"]);
 		await runCli(["node", "birdclaw", "compose", "post", "Ship it"]);
 		await runCli([
 			"node",
